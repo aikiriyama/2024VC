@@ -1,12 +1,13 @@
 head{
     font: bold italic x-large;
-    color: rgb(79, 165, 241);
+    color:rgb(79, 165, 241);
   }
   body {
     margin: 0;
     color: black;
     font-size: medium;
     font: bold italic x-large;
+    background-color: #96bff8;
   }
   h1 {
     color: black;
