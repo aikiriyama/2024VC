@@ -1,0 +1,34 @@
+<!doctype html>
+<HTML>
+
+<HEAD>
+	<meta charset="UTF-8">
+	<title>課題１　自己紹介</title>
+</HEAD>
+
+<BODY>
+    <script type="text/javascript">
+        today = new Date();
+        document.write(today);
+        document.write("<h1>切山晶結</h1>");
+        document.write("<p>情報科学部　情報ネットワーク学科</p>");
+        document.write("<p>好きな食べ物はお芋を使ったものです。サツマイモご飯や、焼き芋、芋けんぴ、スイートポテトなどです。</p>");
+        document.write("<p>最近は待っていることは、温泉巡りです。今年の冬に行ってみたい温泉は、銀山温泉です。</p>");
+    
+        var image1 = new Image(128,128); //image1 オブジェクトの作成
+        image1.src = "ganba.png"; //image1のソースの指定
+        var image2 = new Image(128,128); //image2 オブジェクトの作成
+        image2.src = "ganba.png"; //image2のソースの指定
+        var image3 = new Image(128,128); //image3 オブジェクトの作成
+        image3.src = "ganba.png"; //image3のソースの指定
+        var image4 = new Image(128,128); //image4 オブジェクトの作成
+        image4.src = "ganba.png"; //image4のソースの指定
+        document.body.appendChild(image1); //image1をDOM要素に組み込む
+        document.body.appendChild(image2); //image2をDOM要素に組み込む
+        document.body.appendChild(image3); //image3をDOM要素に組み込む
+        document.body.appendChild(image4); //image4をDOM要素に組み込む
+    </script>
+
+</BODY>
+
+</HTML>
