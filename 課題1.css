@@ -1,8 +1,9 @@
 body {
   margin: 0;
   color: blue;
-  font-size: medium
-  font: bold italic x-large
+  font-size: medium;
+  font: bold italic x-large;
+  background-color: #f4f4f4;
 }
 h1 {
   margin: 80px 0 0 80px;
