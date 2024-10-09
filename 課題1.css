@@ -1,11 +1,11 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>課題１</title>
-   <link href="課題１.css" rel="stylesheet" type="text/css">
- </head>
- <body>
-   <h1>Cascading Style Sheets</h1>
- </body>
-</html>
+body {
+  margin: 0;
+  color: #7ec5f5;
+  background: #f48abf url(leaf.jpg)
+no-repeat
+}
+h1 {
+  margin: 80px 0 0 80px;
+  font: bold italic x-large
+  "Times New Roman",Times,serif
+}
