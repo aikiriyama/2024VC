@@ -4,10 +4,9 @@ head{
   }
   body {
     margin: 0;
-    color: blue;
+    color: black;
     font-size: medium;
     font: bold italic x-large;
-    background-color: #96bff8;
   }
   h1 {
     color: black;
