@@ -1,13 +1,12 @@
-BODY {
+body {
   margin: 0;
   color: #7ec5f5;
-  background: #000000;
 }
-HEAD TITLE {
+head title {
   padding: 10px 0;
   color: #333;
 }
-BODY p{
+body p{
   margin: 80px 0 0 80px;
   font: bold italic x-large
   "Times New Roman",Times,serif
