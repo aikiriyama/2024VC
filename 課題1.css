@@ -1,14 +1,14 @@
 head{
-  font: bold italic x-large;
-  color #f4f4f4;
-}
-body {
-  margin: 0;
-  color: blue;
-  font-size: medium;
-  font: bold italic x-large;
-  background-color: #f4f4f4;
-}
-h1 {
-  color: pink;
-}
+    font: bold italic x-large;
+    color: rgb(79, 165, 241);
+  }
+  body {
+    margin: 0;
+    color: blue;
+    font-size: medium;
+    font: bold italic x-large;
+    background-color: #96bff8;
+  }
+  h1 {
+    color: pink;
+  }
