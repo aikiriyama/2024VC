@@ -1,3 +1,7 @@
+head{
+  font: bold italic x-large;
+  color #f4f4f4;
+}
 body {
   margin: 0;
   color: blue;
@@ -6,6 +10,5 @@ body {
   background-color: #f4f4f4;
 }
 h1 {
-  margin: 80px 0 0 80px;
   color: pink;
 }
