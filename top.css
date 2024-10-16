@@ -6,3 +6,6 @@ body {
     background-image: url(背景画像.jpg);
     background-repeat: repeat;
 }
+body h1 {
+    color: #01B8F7;
+}
