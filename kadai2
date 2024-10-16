@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>課題２</title>
+<link href="top.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1>自己紹介</h1>
+<p>名前：切山　晶結</p>
+<p>学籍番号：2232045</p>
+<p>情報科学部情報ネットワーク学科</p>
+<p>&nbsp;</p>
+<p><a href="趣味.html">趣味：温泉巡り</a></p>
+<p><a href="好きなこと.html">好きなこと：食べること</a></p>
+<p><a href="休みの日にすること.html">休みの日にすること：楽器を弾く</a></p>
+</body>
+</html>
