@@ -1,0 +1,33 @@
+@charset "utf-8";
+body h1 {
+    color: #039AF7;
+    font-style: oblique;
+    font-size: 45px;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    border-width: 20px;
+}
+.picture {
+    border-width: 20px;
+}
+
+.key {
+    color: #FFAEE3;
+    font-size: x-large;
+}
+body p img {
+    border-width: 9px;
+    border-style: none;
+    font-size: 30px;
+}
+body p img {
+    border-width: 19px;
+}
+
+body p img {
+    border-width: 20px;
+}
+body {
+    background-image: url(../../%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88/%E8%83%8C%E6%99%AF%E7%94%BB%E5%83%8F.jpg);
+    background-size: 7px 192px;
+    background-repeat: repeat;
+}
