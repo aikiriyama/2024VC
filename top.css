@@ -3,8 +3,7 @@ body p a {
     line-height: 51px;
 }
 body {
-    background-image　= new Image(128,128); //image1 オブジェクトの作成
-        background-image.src = "背景画像.jpg"; 
+    background-image: "背景画像.jpg"; 
     background-repeat: repeat;
 }
 body h1 {
