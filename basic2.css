@@ -1,0 +1,72 @@
+/* 基本スタイル */
+@charset "utf-8";
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* セクションのスタイル */
+section {
+    padding: 20px;
+    background-color: #333;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+/* セクションの見出し */
+h2 {
+    font-size: 2em;
+    color: #F4882E;
+    text-align: center;
+}
+
+/* メニュー項目 */
+p {
+    font-size: 1.2em;
+    color: #FFFFFF;
+    line-height: 1.6;
+    text-align: center;
+    margin: 10px 0;
+}
+p1{
+    color: #F4882E;	
+	font-size: 1.2em;
+	line-height: 1.6;
+	text-align: center;
+	margin: 10px 0;
+}
+
+/* 画像を並べるためのFlexbox */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* 画像を並べるコンテナ */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* 画面が狭くなると、画像が次の行に折り返し */
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 48%; /* 画像が並んで表示されるように、幅を調整
+}
+
+/* スマホなど小さな画面での表示調整 */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container img {
+        width: 80%; /* 画面が小さい場合、画像をより小さくする */
+    }
+}

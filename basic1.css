@@ -1,0 +1,142 @@
+/* 全体のスタイル */
+@charset "utf-8";
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #FFFFFF;
+}
+
+h1, h2, h3 {
+    font-family: 'Verdana', sans-serif;
+}
+
+/* ヘッダー */
+header {
+    background-color: #F4882E;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* ナビゲーション */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul h1 {
+    font-size: 2em;
+    color: #fff;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #F48822;
+    color: #333;
+}
+
+/* メインコンテンツ */
+main {
+    padding: 20px;
+    background-color: #333;
+    color: #FFFFFF;
+}
+
+main article {
+    margin-bottom: 30px;
+}
+
+main h1 {
+    font-size: 2.5em;
+    color: #F48822;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #F48822;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* 右サイドバー */
+.r_aside {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #FFFFFF;
+}
+
+aside {
+    width: 45%;
+}
+
+aside p {
+    font-size: 1.2em;
+}
+
+/* フッター */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer address {
+    font-size: 1.1em;
+}
+
+footer a {
+    color: #F48822;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer small {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+/* 画像が綺麗に中央に配置される */
+img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+}
