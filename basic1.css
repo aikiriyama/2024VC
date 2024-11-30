@@ -145,4 +145,27 @@ video {
     display: block;  /* 自動的に中央揃えに */
     margin: 20px auto;
 }
+/* ヘッダーのスタイル */
+header {
+    background-color: #F4882E;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header .logo {
+    max-width: 200px;  /* ロゴの最大幅を指定 */
+    height: auto;      /* 高さは自動調整 */
+    display: block;    /* ブロック表示で中央に配置 */
+    margin: 0 auto 20px;  /* 上下の余白を設定（特に下に20pxの余白） */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
 
