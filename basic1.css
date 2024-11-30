@@ -139,3 +139,10 @@ img {
     display: block;
     margin: 20px auto;
 }
+video {
+    width: 100%;
+    max-width: 800px;  /* 最大幅を設定 */
+    display: block;  /* 自動的に中央揃えに */
+    margin: 20px auto;
+}
+
